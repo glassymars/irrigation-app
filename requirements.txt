@@ -2,3 +2,4 @@ streamlit
 torch
 numpy
 requests
+scikit-learn
