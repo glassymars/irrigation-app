@@ -9,6 +9,11 @@
 - Get practical explanations in multiple Indian regional languages using the OpenRouter DeepSeek API.
 - A user-friendly and responsive interface.
 
+## Streamlit
+
+You can access the app live on [Irrigation Predictor](https://irrigation-app-temjbxgncgnqnscftcqe2v.streamlit.app/).  
+Enter your field details to get water predictions and explanations.
+
 ## Input
 
 ### Crop Details
