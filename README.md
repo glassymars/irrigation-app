@@ -1,9 +1,11 @@
 # 🌾 Personalized Irrigation Predictor
 
-**The Smart Irrigation Predictor** web app is built with Streamlit to help farmers estimate irrigation water requirements for crops. Using machine learning models and SHAP values, the app predicts water needs and provides clear, farmer-friendly explanations in multiple languages using a chatbot API.
+**The Smart Irrigation Predictor** web app is built with Streamlit to help farmers estimate irrigation water requirements for crops. It uses a machine learning regression model implemented in PyTorch, trained with a simulated federated learning (FedAvg) setup, along with SHAP values to predict water needs and provide clear, farmer-friendly explanations in multiple languages using the DeepSeek API.
 
 ## Key Features
 
+- Machine learning–based irrigation prediction using a PyTorch regression model. 
+- Simulated federated learning with FedAvg for privacy-aware training.
 - Predict crop-specific water requirements based on field data.
 - Understand which factors influence water needs using global SHAP feature importance.
 - Get practical explanations in multiple Indian regional languages using the OpenRouter DeepSeek API.
